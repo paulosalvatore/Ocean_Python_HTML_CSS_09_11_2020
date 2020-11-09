@@ -1,3 +1,7 @@
+#bloco_estilizacao {
+    text-decoration: underline;
+}
+
 .bloco_destaque {
     background: #00bcff;
     color: white;
