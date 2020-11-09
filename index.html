@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samsung Ocean - Python, HTML e CSS</title>
+
+    <!-- Importamos o arquivo de CSS para dentro do HTML -->
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="bloco_estilizacao">
+        <h1>Estilização</h1>
+
+        <div class="bloco_destaque">
+            Conteúdo do bloco de destaque
+        </div>
+
+        <form class="formulario">
+            <div class="formulario_input">
+                <label for="nome">Digite o seu nome:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            
+            <div class="formulario_input">
+                <label for="idade">Digite a sua idade:</label>
+                <input type="text" name="idade" id="idade">
+            </div>
+        </form>
+        
+        <form class="formulario formulario_especial">
+            <div class="formulario_input">
+                <label for="ano">Digite o ano:</label>
+                <input type="text" name="ano" id="ano">
+            </div>
+        </form>
+        
+        <form class="formulario_especial">
+            <div class="formulario_input">
+                <label for="sobrenome">Digite o sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+        </form>
+    </div>
+
+    <hr>
+
     <h1>Elementos de HTML</h1>
 
     <h2>Exemplos de div</h2>
@@ -17,6 +57,10 @@
     </div>
 
     <br>
+
+    <div class="bloco_destaque">
+        Conteúdo do bloco de destaque
+    </div>
 
     <div>
         Conteúdo do div 2<br>

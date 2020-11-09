@@ -1,0 +1,35 @@
+.bloco_destaque {
+    background: #00bcff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Verdana';
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px 0px black;
+}
+
+.formulario {
+    margin-top: 20px;
+}
+
+.formulario.formulario_especial {
+    width: 80%;
+}
+
+.formulario_especial {
+    font-weight: bold;
+}
+
+.formulario_especial .formulario_input {
+    background: red;
+}
+
+.formulario_input {
+    padding: 10px;
+    background: #ededed;
+    margin: 5px;
+    border-radius: 20px;
+    font-family: 'Verdana';
+}
